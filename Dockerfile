@@ -1,8 +1,16 @@
 FROM ubuntu:latest
 
+## for apt to be noninteractive
+ENV DEBIAN_FRONTEND noninteractive
+ENV DEBCONF_NONINTERACTIVE_SEEN true
+
 # Install cron
 RUN apt-get update
 RUN apt-get install cron
+
+# Install PHP-CLI
+# Uncomment this line to install php
+# RUN apt-get install php-cli -y
 
 # Add crontab file in the cron directory
 ADD crontab /etc/cron.d/simple-cron
