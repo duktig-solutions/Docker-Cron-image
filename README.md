@@ -4,7 +4,7 @@
 
 ## Version 1.1.0
 
->NOTE: To install pgp-cli in this image, uncomment the line in `Dockerfile` :
+>NOTE: To install php-cli in this image, uncomment the line in `Dockerfile` :
 
 ```
 RUN apt-get install php-cli -y
