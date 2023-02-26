@@ -47,8 +47,7 @@ This Installation schema is a part of **Duktig Microservices** Package developed
 
 ## Contacts
 
-- Email: software@duktig.dev>
-- Phone: +37495565003
+- Email: framework@duktig.solutions>
 - Website: http://duktig.solutions
 
 End of document
